@@ -1,0 +1,14 @@
+logs/
+npm-debug.log
+node_modules/
+coverage/
+.idea/
+run/
+.DS_Store
+.vscode
+*.swp
+*.lock
+!.autod.conf.js
+dist/
+test/
+package-lock.json
