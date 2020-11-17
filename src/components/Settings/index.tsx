@@ -23,7 +23,7 @@ const Login = observer(() => {
 
     return (
         <Drawer
-            title="登陆"
+            title="Login"
             width={560}
             visible={clientStore.settingVisible}
             bodyStyle={{ paddingBottom: 80 }}
