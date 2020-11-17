@@ -16,7 +16,8 @@
     "@ant-design/icons": "^4.3.0",
     "agora-rtc-sdk": "^3.2.3",
     "mobx": "5.15.7",
-    "mobx-react-lite": "2.2.2"
+    "mobx-react-lite": "2.2.2",
+    "react-copy-to-clipboard": "^5.0.2"
   },
   "devDependencies": {
     "packjs": "latest",

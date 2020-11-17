@@ -4,15 +4,16 @@ A basic demo of [AgoraSDK](https://github.com/AgoraIO/Basic-Video-Call/tree/mast
 
 ## [Live Demo](https://aaronphy.github.io/agora_demo/)
 
-
 ## Features
+
 - TypeScript: Written in TypeScript with predictable static types
 - Mobx: Reactive to AgoraSDK Management
 - Responsive:Responsive design to adapt automatically to different desktop device
+- Multiplayer: Support multiplayer real-time video
 
 ## Prerequisites
 
-- Node.js 10.0.0+
+- Node.js 12.1.0+
 - A web server that supports SSL (https)
 
 ## Quick Start
@@ -22,6 +23,7 @@ This section shows you how to prepare, and run the sample application.
 ### Obtain an App ID
 
 To build and run the sample application, get an App ID:
+
 1. Create a developer account at [agora.io](https://dashboard.agora.io/signin/). Once you finish the signup process, you will be redirected to the Dashboard.
 2. Navigate in the Dashboard tree on the left to **Projects** > **Project List**.
 3. Save the **App ID** from the Dashboard for later use.
@@ -30,7 +32,7 @@ To build and run the sample application, get an App ID:
 ### Run Web-Server
 
 1. Launch server via following commands in working folder,
-    ```
-    npm install && npm run dev
-    ```
+   ```
+   npm install && npm run dev
+   ```
 2. Enter Valid APPID, Token, Channel and click **JOIN**
