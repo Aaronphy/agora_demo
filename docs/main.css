@@ -1,0 +1,60 @@
+/*! made in 2020 by packjs */
+.style__header--15EGj {
+  color: #ffffff;
+  display: flex;
+}
+.style__title--1TrRQ {
+  font-size: 36px;
+  font-weight: 400;
+}
+.style__actions--2M81t {
+  flex: 1;
+  text-align: right;
+}
+.style__actions--2M81t .anticon {
+  margin-right: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.style__panel--gloIs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.style__panel--S0hh2 {
+  height: 256px;
+}
+@media (min-width: 768px) {
+  .style__panel--S0hh2 {
+    height: 360px;
+  }
+}
+@media (min-width: 992px) {
+  .style__panel--S0hh2 {
+    height: 480px;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.style__app--1Rjnu {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+}
+.style__header--1QDh_ {
+  background-color: #1890ff;
+}
+.style__content--1mpXU {
+  position: relative;
+  padding: 8px;
+}
+
+
+/*# sourceMappingURL=main.css.map*/

@@ -1,5 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Home } from './pages/Home/Home';
+import App from './views/index';
+import { StoresProvider, stores } from './store/index';
 
-ReactDOM.render(<Home />, document.getElementById('root'));
+const WrappedApp = () => <StoresProvider value={stores}>
+    <App />
+  </StoresProvider>;
+
+ReactDOM.render(<WrappedApp />, document.getElementById('root'));

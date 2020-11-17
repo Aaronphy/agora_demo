@@ -1,3 +1,5 @@
+import RTC from 'agora-rtc-sdk';
+
 declare module '*.css';
 declare module '*.scss';
 declare module '*.less';
@@ -6,3 +8,8 @@ declare module '*.json'
 interface Window {
     [key: string]: any;
 }
+
+
+
+
+

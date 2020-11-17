@@ -23,7 +23,18 @@
     "allowUnusedLabels": false,
     "strictPropertyInitialization": false,
     "noFallthroughCasesInSwitch": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "store": ["store"],
+      "components": ["components"],
+      "utils": ["utils"],
+      "views": ["views"],
+      "store/*": ["src/store/*"],
+      "components/*": ["src/components/*"],
+      "utils/*": ["src/utils/*"],
+      "views/*": ["src/views/*"]
+    }
   },
   "include": ["./src/**/*", "./typings.d.ts"]
 }
